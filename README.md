@@ -15,3 +15,4 @@ This is a simple Django app that displays a greeting message when accessed via b
 docker build -t myapp .
 docker run -p 8000:8000 myapp
 
+# #visit the website by opening it in -->  http://localhost:8000 
