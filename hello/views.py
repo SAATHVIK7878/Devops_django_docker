@@ -26,3 +26,10 @@ def db(request):
     greetings = Greeting.objects.all()
 
     return render(request, "db.html", {"greetings": greetings})
+
+
+from django.http import HttpResponse
+
+def index(request):
+    return HttpResponse("Hello from Saathvik K and team !")
+
