@@ -31,5 +31,19 @@ def db(request):
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("Hello from Saathvik K and team !")
+    return HttpResponse("""
+        <h1>Hello from Saathvik K and Team!</h1>
+        <p>We have developed a <strong>simple website</strong> which says 'Hello' to the user.</p>
+        <p>We containerized it using <strong>Docker</strong> and pushed the code to a <strong>GitHub repository</strong>.</p>
+        <br>
+        <h2>THANK YOU!</h2>
+        <h3>Team Members:</h3>
+        <ul>
+            <li>23951A057W - Saathvik K</li>
+            <li>23951A057U - T Rukesh Kumar</li>
+        </ul>
+    """)
+    
+    
+    
 
