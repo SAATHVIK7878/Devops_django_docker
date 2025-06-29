@@ -34,7 +34,7 @@ def index(request):
     return HttpResponse("""
         <h1>Hello from Saathvik K and Team!</h1>
         <p>We have developed a <strong>simple website</strong> which says 'Hello' to the user.</p>
-        <p>We containerized it using <strong>Docker</strong> and pushed the code to a <strong>GitHub repository</strong>.</p>
+        <p>We containerized it using <strong>Docker</strong> and pushed the code in to a <strong>GitHub repository</strong>.</p>
         <br>
         <h2>THANK YOU!</h2>
         <h3>Team Members:</h3>
